@@ -47,5 +47,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: <YOUR PROJECT NAME>
-          entrypoint: '{out}/index.js' # same as `out` option in config
-          root: '<root>' # if necessary
+          entrypoint: 'build/index.js' # same as `out` option in config
+          # root: '<root>' # if necessary
